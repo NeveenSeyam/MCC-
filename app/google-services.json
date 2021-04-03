@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "948667187712",
+    "project_id": "firstass-b1851",
+    "storage_bucket": "firstass-b1851.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948667187712:android:68968b6be4c37761270ee5",
+        "android_client_info": {
+          "package_name": "com.example.firstass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948667187712-qiu8sasvrl129q5mr8havrm6hm56qluh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8By0_x1Uii63lyeiCQlHCA6YqZxM_JHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948667187712-qiu8sasvrl129q5mr8havrm6hm56qluh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948667187712:android:c652040abd3f8f58270ee5",
+        "android_client_info": {
+          "package_name": "com.example.mccanals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948667187712-qiu8sasvrl129q5mr8havrm6hm56qluh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8By0_x1Uii63lyeiCQlHCA6YqZxM_JHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948667187712-qiu8sasvrl129q5mr8havrm6hm56qluh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

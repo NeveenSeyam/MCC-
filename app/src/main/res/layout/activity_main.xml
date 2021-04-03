@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/clothis"
+        android:layout_width="135dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:text="clothis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintStart_toEndOf="@+id/clothis"
+        app:layout_constraintTop_toTopOf="@+id/clothis"
+        app:srcCompat="@drawable/clothis" />
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="137dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Books"
+        app:layout_constraintStart_toStartOf="@+id/clothis"
+        app:layout_constraintTop_toBottomOf="@+id/clothis" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="139dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintStart_toEndOf="@+id/books"
+        app:layout_constraintTop_toTopOf="@+id/books"
+        app:srcCompat="@drawable/book" />
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="135dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="28dp"
+        android:text="food"
+        app:layout_constraintStart_toStartOf="@+id/books"
+        app:layout_constraintTop_toBottomOf="@+id/books" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="134dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/food"
+        app:layout_constraintTop_toTopOf="@+id/food"
+        app:srcCompat="@drawable/food" />
+
+    <Button
+        android:id="@+id/moblie"
+        android:layout_width="133dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="20dp"
+        android:text="Mobile"
+        app:layout_constraintStart_toStartOf="@+id/food"
+        app:layout_constraintTop_toBottomOf="@+id/food" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="133dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toEndOf="@+id/moblie"
+        app:layout_constraintTop_toTopOf="@+id/moblie"
+        app:srcCompat="@drawable/mobile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
